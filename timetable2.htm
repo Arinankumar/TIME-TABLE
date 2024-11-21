@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Timetable</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f7;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        table {
+            width: 85%;
+            border-collapse: collapse;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            background-color: #ffffff;
+        }
+        th, td {
+            padding: 15px;
+            border: 1px solid #ddd;
+            font-size: 16px;
+        }
+        th {
+            background-color: #4caf50;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        caption {
+            font-size: 26px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #00796b;
+        }
+        .break {
+            background-color: #ffeb3b;
+            font-weight: bold;
+        }
+        .lunch {
+            background-color: #ff9800;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <caption>Class Timetable</caption>
+        <thead>
+            <tr>
+                <th>Day/Time</th>
+                <th>08:20 - 09:00</th>
+                <th>09:00 - 09:40</th>
+                <th>09:40 - 10:20</th>
+                <th>10:20 - 11:00</th>
+                <th>11:00 - 11:20</th>
+                <th>11:20 - 12:00</th>
+                <th>12:00 - 12:40</th>
+                <th>12:40 - 01:10</th>
+                <th>01:10 - 01:40</th>
+                <th>01:40 - 02:10</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Monday -->
+            <tr>
+                <td>Monday</td>
+                <td>Math</td>
+                <td>English</td>
+                <td>PHE</td>
+                <td>PHE</td>
+                <td class="lunch" colspan="1">Lunch break</td>
+                <td>SSC</td>
+                <td>SKT</td>
+                <td>Science</td>
+                <td>Hindi</td>
+                <td>IT(th)</td>
+            </tr>
+            <!-- Tuesday -->
+            <tr>
+                <td>Tuesday</td>
+                <td>Science</td>
+                <td>Hindi</td>
+                <td>Hindi</td>
+                <td>English</td>
+                <td class="lunch" colspan="1">Lunch break</td>
+                <td>Maths</td>
+                <td>Maths</td>
+                <td>SST</td>
+                <td>F.A.</td>
+                <td>SKT</td>
+            </tr>
+            <!-- Wednesday -->
+            <tr>
+                <td>Wednesday</td>
+                <td>Science</td>
+                <td>English</td>
+                <td>English</td>
+                <td>Maths</td>
+                <td class="lunch" colspan="1">Lunch break</td>
+                <td>Hindi</td>
+                <td>SST</td>
+                <td>SKT</td>
+                <td>A.I/I.T</td>
+                <td>A.I/I.T</td>
+            </tr>
+            <!-- Thursday -->
+            <tr>
+                <td>Thursday</td>
+                <td>Hindi</td>
+                <td>Maths</td>
+                <td>Science</td>
+                <td>English</td>
+                <td class="lunch" colspan="1">Lunch break</td>
+                <td>SST</td>
+                <td>Maths</td>
+                <td>LIB</td>
+                <td>G.K</td>
+                <td>Science</td>
+            </tr>
+            <!-- Friday -->
+            <tr>
+                <td>Friday</td>
+                <td>Hindi</td>
+                <td>PA/VA</td>
+                <td>PA/VA</td>
+                <td>Science</td>
+                <td class="lunch" colspan="1">Lunch break</td>
+                <td>English</td>
+                <td>Maths</td>
+                <td>SST</td>
+                <td>Clubs</td>
+                <td>Clubs</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
